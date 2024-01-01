@@ -1,0 +1,55 @@
+/* forecast.css */
+
+.forecast {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .heading h3 {
+    font-size: 1.5rem; /* Adjust the font size for the heading */
+  }
+  
+  .day {
+    width: 100%; /* Make sure the days take the full width */
+  }
+  
+  .AccordionSummary-root {
+    /* Adjust the spacing between items in the summary */
+    padding: 10px;
+  }
+  
+  .AccordionDetails-root {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .imgIcon {
+    width: 50px; /* Set a fixed width for the icon */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 600px) {
+    .forecast {
+      margin: 10px;
+    }
+  
+    .heading h3 {
+      font-size: 1.2rem;
+    }
+  
+    .AccordionSummary-root {
+      padding: 8px;
+     
+    }
+  }
+  
+  /* Add more media queries as needed */
+  

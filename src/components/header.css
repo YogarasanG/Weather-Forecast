@@ -1,0 +1,16 @@
+.header{
+    background-color: hsla(253, 99%, 66%, 0.795);
+    padding-left: 100px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 4px solid #363062;
+  }
+  @media (max-width: 600px) {
+    .header{
+        font-size: 2vh; 
+        padding-left: 2px;
+           
+    }
+  }
